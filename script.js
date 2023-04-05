@@ -1,16 +1,16 @@
 function createHeart() {
-    const heart = document.createElement("div");
-    heart.classList.add("heart");
+    const coffee = document.createElement("div");
+    coffee.classList.add("coffee");
 
-    heart.style.left = Math.random() * 100 + "vw";
-    heart.style.animationDuration = Math.random() * 2 + 3 + "s";
+    coffee.style.left = Math.random() * 100 + "vw";
+    coffee.style.animationDuration = Math.random() * 2 + 3 + "s";
 
-    heart.innerText = "☕️";
+    coffee.innerText = "☕️";
 
-    document.body.appendChild(heart);
+    document.body.appendChild(coffee);
 
     setTimeout(() => {
-        heart.remove();
+        coffee.remove();
     }, 5000);
 }
 

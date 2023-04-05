@@ -5,8 +5,8 @@
 }
 
 h1{
-    font-size: 90px;
     color: #533729;
+    font-size: 90px;
     margin-bottom: 1rem;
 }
 
@@ -28,7 +28,7 @@ body {
     text-align: center;
 }
 
-.heart {
+.coffee {
     position: fixed;
     top: -1vh;
     font-size: 2rem;
